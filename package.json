@@ -1,0 +1,22 @@
+{
+  "name": "zk-primitives",
+  "version": "1.0.0",
+  "description": "Rudimentary examples on how to use various ZK code",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microbecode/zk-primitives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microbecode/zk-primitives/issues"
+  },
+  "homepage": "https://github.com/microbecode/zk-primitives#readme",
+  "dependencies": {
+    "circomlibjs": "^0.1.7"
+  }
+}
