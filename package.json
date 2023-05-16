@@ -18,5 +18,9 @@
   "homepage": "https://github.com/microbecode/zk-primitives#readme",
   "dependencies": {
     "circomlibjs": "^0.1.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
   }
 }

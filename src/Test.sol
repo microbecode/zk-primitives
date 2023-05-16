@@ -1,5 +1,7 @@
 pragma solidity ^0.8.2;
 
+// Used to generate minimal bytecode for testing
+
 contract Test {
     uint256 a;
     event A(uint256);
