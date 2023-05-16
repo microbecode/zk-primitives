@@ -15,7 +15,7 @@ contract PedersenHash {
 
     function hash(
         bytes memory input
-    ) external view returns (uint256[] memory output) {
+    ) external returns (uint256[] memory output) {
         uint256 inputLen = input.length;
         uint256 n = inputLen / 64;
         uint256 rowSize = inputLen / 32;

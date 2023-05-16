@@ -6,6 +6,9 @@ const config: HardhatUserConfig = {
   paths: {
     sources: "./src",
   },
+  gasReporter: {
+    enabled: true,
+  },
 };
 
 export default config;
