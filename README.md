@@ -19,3 +19,9 @@ This is to test gas usage of a Pedersen implementation in Solidity. Uses _some_ 
 
 1. Run `npm i`
 1. Run `npx hardhat test`
+
+With that Pedersen implementation, a single hash creation is about 670k gas.
+
+## Solidity proof verifier for Marlin
+
+A verifier generator is available at https://github.com/Zokrates/ZoKrates/blob/633ee82547748d601c68eb2c7fefe4a051af8f1b/zokrates_js/tests/tests.js#L225 . Unfortunately I was unable to measure its performance.
